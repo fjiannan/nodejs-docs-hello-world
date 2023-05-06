@@ -28,7 +28,7 @@ const db = {
       ],
     },
     jondoe: {
-        user: 'jondoe',
+        user: 'David',
         currency: '$',
         description: `Second test account`,
         balance: 150,
@@ -59,7 +59,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/api', function (req, res) {
-    return res.send("Fabrikam Bank API");
+    return res.send("David Nodejs Website API");
 })
   
 // ----------------------------------------------
